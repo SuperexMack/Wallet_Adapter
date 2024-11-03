@@ -21,7 +21,7 @@ function App() {
       <UpperPage />
       <Para />
       <div className="main-screen h-auto w-full flex justify-center px-4 md:px-8">
-        <div className="w-full md:w-[60rem] h-auto flex flex-col items-center space-y-4 p-5 mt-[100px]">
+        <div className="w-full md:w-[60rem] h-auto flex flex-col items-center space-y-4 p-5 mt-[100px] z-50">
           <h1 className="text-[30px] md:text-[50px] font-bold text-violet-700">Your Wallet</h1>
           <ConnectionProvider endpoint={"https://solana-devnet.g.alchemy.com/v2/1GcAeTdxUpNiEvq2IeIo_Cqm97P_J-R4"}>
             <WalletProvider wallets={[]} autoConnect>
